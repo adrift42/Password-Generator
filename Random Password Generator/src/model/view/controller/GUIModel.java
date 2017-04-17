@@ -29,7 +29,7 @@ import java.util.regex.Pattern;
  * DONE - move all the complexity additions to their own methods to streamline the process and prevent confusion, incorrect method calls etc
  * DONE - implement a 'random' option that does not use words to generate a password, but instead generates random letters (and numbers/characters if so selected),
  * DONE - add the potential for external/custom word lists to be used instead of the internally provided one
- * @author conneryj
+ * @author -removed-
  *
  */
 
