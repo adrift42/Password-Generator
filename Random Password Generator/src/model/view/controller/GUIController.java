@@ -5,7 +5,7 @@ package model.view.controller;
  * 
  * Figure out what the hell the Controller class is used for when the Main method could easily do the same..
  * 
- * @author conneryj
+ * @author -removed-
  *
  */
 
