@@ -79,6 +79,7 @@ public class GUIView extends JFrame{
 	private JMenuItem loadDefaultList;
 
 	private Font mainFont;
+	private Font secondaryFont;
 
 
 	private JTextArea programDescriptionText;
@@ -118,6 +119,7 @@ public class GUIView extends JFrame{
 		model = new GUIModel();
 		setDebugging = false;
 		mainFont = new Font("Segoe.UI", Font.PLAIN, 12);
+		secondaryFont = new Font("Arial", Font.BOLD, 14);
 
 		EventQueue.invokeLater(new Runnable() {
 
@@ -204,7 +206,7 @@ public class GUIView extends JFrame{
 			}
 		});
 		selectNumberOfWords.setForeground(new Color(25, 25, 255));
-		selectNumberOfWords.setFont(new Font("Arial", Font.BOLD, 14));
+		selectNumberOfWords.setFont(secondaryFont);
 		/**-----------------------------------------------------------------*/
 
 		/**--------------------------Min password length----------------------------------*/
@@ -238,7 +240,7 @@ public class GUIView extends JFrame{
 			}
 		});
 		minPasswordLength.setForeground(new Color(25, 25, 255));
-		minPasswordLength.setFont(new Font("Arial", Font.BOLD, 14));
+		minPasswordLength.setFont(secondaryFont);
 
 		/**-----------------------------------------------------------------*/
 
@@ -272,7 +274,7 @@ public class GUIView extends JFrame{
 			}
 		});
 		maxPasswordLength.setForeground(new Color(25, 25, 255));
-		maxPasswordLength.setFont(new Font("Arial", Font.BOLD, 14));
+		maxPasswordLength.setFont(secondaryFont);
 
 		/**-----------------------------------------------------------------*/
 
